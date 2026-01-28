@@ -37,11 +37,12 @@ void Person::printInfo()
 	cout << "Address: " << getAddress() << endl;
 }
 
-Person::Person()
+Person::Person():Person("Not set yet", "Not set yet", "Not set yet")
 {
-	setName("Not set yet");
+	/*setName("Not set yet");
 	setSSN("Not set yet");
-	setAddress("Not set yet");
+	setAddress("Not set yet");*/
+
 }
 
 Person::Person(string n, string s, string a)

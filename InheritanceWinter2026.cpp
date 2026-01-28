@@ -2,9 +2,12 @@
 //
 
 #include <iostream>
-
+#include "Person.h"
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+	Person obj1("James Bond","007-007-00007","SkyFall");
+
+	obj1.printInfo();
 }
 
