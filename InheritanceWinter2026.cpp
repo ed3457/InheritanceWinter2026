@@ -3,11 +3,22 @@
 
 #include <iostream>
 #include "Person.h"
+#include "Employee.h"
 using namespace std;
 int main()
 {
-	Person obj1("James Bond","007-007-00007","SkyFall");
+	/*Person obj1("James Bond","007-007-00007","SkyFall");
 
-	obj1.printInfo();
+	obj1.printInfo();*/
+
+	Employee emp1;
+
+	emp1.setName("James Khan");
+	emp1.setAddress("Detroit");
+	emp1.setPosition("Sr. Manager");
+	emp1.setSalary(100000);
+	emp1.setSSN("599-45-3323");
+
+	emp1.printInfo();
 }
 
