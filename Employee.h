@@ -16,8 +16,8 @@ public:
 	float getSalary();
 
 	void printInfo();// override 
-	/*Employee();
-	Employee(string n, string sn, string ad, string p, float sal);*/
+	Employee();
+	Employee(string n, string sn, string ad, string p, float sal);
 
 
 };

@@ -30,4 +30,18 @@ void Employee::printInfo()
 
 }
 
+Employee::Employee()
+{
+	setPosition("Not assigned yet");
+	setSalary(10000);
+
+}
+
+Employee::Employee(string n, string sn, string ad, string p, float sal):Person(n,sn,ad)
+{
+	setPosition(p);
+	setSalary(sal);
+
+}
+
 
